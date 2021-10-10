@@ -1,0 +1,14 @@
+package com.example.mapirstylewithmapboxsdk;
+
+import android.app.Application;
+
+import com.example.mapirstylewithmapboxsdk.Mapir.Mapir;
+
+public class AppController extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+        Mapir.init(this, "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImEwZDUwNGJhMjRhZTA5ZTg4NGEwMjUzMDI0MzhlOGNhY2MwNDk0ODdhZmMyODgwMDExZTFlYTFmZmUxZTAwMjc3Y2RhZjhmMTBjYWQ3ZjExIn0.eyJhdWQiOiIxNDEwMCIsImp0aSI6ImEwZDUwNGJhMjRhZTA5ZTg4NGEwMjUzMDI0MzhlOGNhY2MwNDk0ODdhZmMyODgwMDExZTFlYTFmZmUxZTAwMjc3Y2RhZjhmMTBjYWQ3ZjExIiwiaWF0IjoxNjMxNjkzMTkwLCJuYmYiOjE2MzE2OTMxOTAsImV4cCI6MTYzMjgxOTk5MCwic3ViIjoiIiwic2NvcGVzIjpbImJhc2ljIl19.pDtjoQBdRCIsgFtJEdeWDO473zL49dVrayrx0ZC6dY-KEBIvbE7e0-VFTwegcmxzPvuXfpXQKAo_JOMTnba2Gmr21JIvMqTW6ML7CdwbZTRAUJsTCZDcJOJVcdj9SL55uSKKeRgI9cTYhZzug_VKdNH7_kxjG8ESUSxsZ2OTBrN5Wg8q7mG32TTFxu6ya1ZnzkriAU5URsgXD62L07wCNENjmF5Zxpt-2cZf_1jfkJ-nKnnVu4D0u1m7bwinRQUUVUjpU_tN1nteZ95E9yoDjYC91lLwY0viJYdd8KHtZ4mwr0hXxSeMAFIKLSL9FO6n7UCVvfB4l1K6eZBcdt51Sg");
+    }
+}
